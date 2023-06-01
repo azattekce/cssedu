@@ -1,0 +1,25 @@
+#algeria{
+       width:200px;
+		top:50px;
+		left:50px;
+		height:200px;
+		background-color:#dd2626;
+		position:relative;
+
+	}
+	#algeria .middle{
+		display:block;
+		width:75px;
+		top:37px;
+		left:75px;
+		height:75px;
+		background:#fff;
+		border-radius:50%
+		}
+		#algeria .moon{display:block;width:75px;top:0;left:0;height:75px;background:#fff;border-radius:50%}
+		#algeria .moon-clip{display:block;width:59px;top:8px;left:17px;height:59px;
+		 background-image: -webkit-linear-gradient(90deg,#dd2626 35%,#dd2626 35%);
+	     border-radius:50%}
+		#algeria .star{margin:25px 0;position:absolute;top:-5px;left:4px;display:block;color:#fff;width:0;height:0;border-right:50px solid transparent;border-bottom:35px solid #fff;border-left:50px solid transparent;-moz-transform:rotate(65deg) scale(0.35,.35);-webkit-transform:rotate(55deg) scale(0.35,.35);-ms-transform:rotate(65deg) scale(0.35,.35);-o-transform:rotate(65deg) scale(0.35,.35)}
+		#algeria .star:before{content:'';display:block;position:absolute;top:-22.5px;left:-32.5px;height:0;width:0;border-bottom:40px solid #fff;border-left:15px solid transparent;border-right:15px solid transparent;-webkit-transform:rotate(-35deg);-moz-transform:rotate(-35deg);-ms-transform:rotate(-35deg);-o-transform:rotate(-35deg)}
+		#algeria .star:after{content:'';display:block;position:absolute;top:3px;left:-52.5px;width:0;height:0;color:#fff;border-right:50px solid transparent;border-bottom:35px solid #fff;border-left:50px solid transparent;-webkit-transform:rotate(-70deg);-moz-transform:rotate(-70deg);-ms-transform:rotate(-70deg);-o-transform:rotate(-70deg)}

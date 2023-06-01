@@ -1,0 +1,26 @@
+h1 {
+ color:red;
+ background-color:yellow;
+}
+p{	
+	color:blue;
+	font-size:28px;
+	bottom:1px;
+	margin-left:1px;
+	margin-top:1px;
+}
+
+p[active="true"]{	
+	color:green;
+	font-size:32px;
+	bottom:1px;
+	margin-left:1px;
+	margin-top:1px;
+}
+p[active="false"]{	
+	color:black;
+	font-size:32px;
+	bottom:1px;
+	margin-left:1px;
+	margin-top:1px;
+}
